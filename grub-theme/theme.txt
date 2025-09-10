@@ -1,0 +1,64 @@
+# Global properties
+title-text: ""
+desktop-image: "portal_background_2.png"
+desktop-color: "#000000"
+terminal-font: "VT323 Regular 24"
+terminal-left: "25%"
+terminal-top: "25%"
+terminal-width: "50%"
+terminal-height: "50%"
+terminal-box: "./assets/graphics/inbox_*.png"
+
+# Boot menu
++ boot_menu {
+	left = 4%+30
+	top = 45%
+	width = 700
+	height = 280
+	item_color = "#FFFFFF"
+	item_font = "JetBrainsMono NF Regular 20"
+	item_spacing = 0
+	item_height = 40
+	selected_item_pixmap_style = "./assets/graphics/selected_item_*.png"
+	menu_pixmap_style = "./assets/graphics/inbox_*.png"
+}
+
++ label {
+  color = "#812E00"
+  font = "VT323 Regular 24"
+  left = 5%+10
+  top = 85%
+  width = 30%
+  align = "left"
+  text = "Press C for Console or E to Edit"
+}
+
++ label {
+  color = "#812E00"
+  font = "VT323 Regular 24"
+  left = 5%+10
+  top = 25%
+  width = 600
+  align = "left"
+  text = "grub@aperture.science:~$ bash choose_os.sh"	
+}
+
++ label {
+  color = "#812E00"
+  font = "VT323 Regular 24"
+  left = 5%+10
+  top = 30%
+  width = 600
+  align = "left"
+  text = "Dual Boot found. Launching GRUB... DONE"
+}
+
++ label {
+  left = 5%+10
+  top = 35%
+  color = "#812E00"
+  font = "VT323 Regular 24"
+  text = "Choosing an OS..."
+  width = 600
+  align = "left"
+}
