@@ -72,6 +72,7 @@ button:hover {
 #wireplumber,
 #custom-media,
 #tray,
+#custom-notification,
 #mpd {
     border-left: 3px solid rgb(179, 111, 25);
     padding: 5px 10px;
@@ -84,6 +85,7 @@ button:hover {
 #pulseaudio:hover,
 #backlight:hover,
 #bluetooth:hover,
+#custom-notification:hover
 #clock:hover {
     background-color: rgb(249, 219, 137); 
 }
@@ -165,10 +167,6 @@ label:focus {
 
 #temperature.critical {
     background-color: #eb4d4b;
-}
-
-#tray {
-    background-color: #2980b9;
 }
 
 #tray > .passive {
