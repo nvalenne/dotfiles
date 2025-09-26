@@ -1,6 +1,6 @@
 # Global properties
 title-text: ""
-desktop-image: "portal_background_2.png"
+desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "VT323 Regular 24"
 terminal-left: "25%"
