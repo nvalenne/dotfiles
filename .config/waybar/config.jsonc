@@ -80,16 +80,17 @@
     "clock": {
         // "timezone": "America/New_York",
         "format": "{:%R}",
+	"format-alt": "{:%d/%m/%Y}",
 	"tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
 		"mode": "month",
 		"on-scroll": 1,
 		"weeks-pos": "right",
 		"format": {
-			"months":     	"<span color='#ffead3'><b>{}</b></span>",
+			"months":     	"<span color='#b36f19'><b>{}</b></span>",
                         "days":       	"<span color='#b36f19'><b>{}</b></span>",
                         "weeks":      	"<span color='white'><b>W{}</b></span>",
-                        "weekdays":	"<span color='#ffcc66'><b>{}</b></span>",
+                        "weekdays":	"<span color='white'><b>{}</b></span>",
 			"today": 	"<span color='white'><b><u>{}</u></b></span>"	
 		}
 	},
@@ -124,7 +125,6 @@
         "format-full": "{capacity}% {icon}",
         "format-charging": "{capacity}% 󱐋",
         "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]

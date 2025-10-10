@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: FontAwesome, Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -53,6 +53,17 @@ button {
 #workspaces button.active > button:hover{
     background-color: rgb(179, 111, 25);
     color: rgb(255, 255, 255);
+}
+
+tooltip {
+   background-color: #e8ca75;
+   border: 4px outset #b36f19;
+   border-radius: 0px;
+}
+
+tooltip label {
+   color: rgb(153, 91, 16);
+   text-shadow: none;
 }
 
 #clock,
@@ -124,12 +135,6 @@ label:focus {
         background-size: contain;
 	margin: 0 0 5px 5px;
 }
-
-#memory {}
-
-#backlight {}
-
-#network.disconnected {}
 
 #wireplumber {
     background-color: #fff0f5;
