@@ -12,14 +12,14 @@ while [[ 0 -eq 0 ]]; do
 	battery_capacity="$(cat /sys/class/power_supply/BAT0/capacity)"
 	if [[ $battery_status == 'Discharging' && $battery_capacity -le 20  ]]; then
 		if [[ $battery_capacity -le 10 ]]; then
-			notify-send --icon="$(pwd)/assets/battery_critical.svg" "Battery critical !" "$battery_capacity% remaining. Please consider plug in NOW your PC."
+			notify-send --icon="$HOME/.config/scripts/assets/battery_critical.svg" "Battery critical !" "$battery_capacity% remaining. Please consider plug in NOW your PC."
 			sleep 300
 		else
-			notify-send --icon="$(pwd)/assets/battery_low.svg" "Battery low !" "$battery_capacity% remaining. You might want plug in your PC."
+			notify-send --icon="$HOME/.config/scripts/assets/battery_low.svg" "Battery low !" "$battery_capacity% remaining. You might want plug in your PC."
 			sleep 300
 		fi
 	else
-		sleep 300
+		sleep 10
 	fi
 	
 done;	
