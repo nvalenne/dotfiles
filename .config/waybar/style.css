@@ -109,20 +109,6 @@ tooltip label {
     margin-right: 0;
 }
 
-@keyframes blink {
-    to {
-        background-color: rgb(255, 77, 71);
-    }
-}
-
-/* Using steps() instead of linear as a timing function to limit cpu usage */
-#battery.critical:not(.charging) {
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
 label:focus {
     background-color: #000000;
 }

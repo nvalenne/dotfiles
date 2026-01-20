@@ -23,19 +23,19 @@
     ],
     // Modules configuration
     "hyprland/workspaces": {
-    "on-scroll-up": "hyprctl dispatch workspace r-1",
-    "on-scroll-down": "hyprctl dispatch workspace r+1",
-    "on-click": "activate",
-    "all-outputs": true,
-    "format": "{}",
-    "format-icons": {
-      "urgent": "",
-      "active": "",
-      "default": ""
-    },
-    "persistent-workspaces": {
-      "*": 5
-      }
+    	"on-scroll-up": "hyprctl dispatch workspace r-1",
+    	"on-scroll-down": "hyprctl dispatch workspace r+1",
+    	"on-click": "activate",
+    	"all-outputs": true,
+    	"format": "{}",
+    	"format-icons": {
+      		"urgent": "",
+      		"active": "",
+      		"default": ""
+    	},
+    	"persistent-workspaces": {
+      		"*": 5
+      	}
     },
     "hyprland/window": {
         "format": "{title}",
@@ -121,11 +121,11 @@
         },
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% 󱐋",
+        "format-charging": "{capacity}% 󰂄",
         "format-plugged": "{capacity}% ",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-	"format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	"format-icons": ["󱟩", "󱃍", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
 	"interval": 2
     },
     "network": {

@@ -16,7 +16,7 @@ configuration {
     background:                  #E8CA75;
     background-alt:              #462D23;
     border-color:		 #B36F19;
-    foreground:                  #000000;
+    foreground:                  #FFFFFF;
     selected:                    #E5A148;
     active:                      #7B6C5B;
     urgent:                      #934A1C;
@@ -38,7 +38,7 @@ window {
     enabled:                     true;
     border-radius:               0px;
     cursor:                      "default";
-    background-color:            @background;
+    background-color:            @background-alt;
 }
 
 /*****----- Main Box -----*****/
